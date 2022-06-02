@@ -171,7 +171,7 @@ main section {
     height: inherit;
     width: 100%;
     object-fit: cover;
-
+ 
 }
 
 .slide-text {
@@ -186,7 +186,7 @@ main section {
     text-align: center;
     color: var(--primary);
     background: radial-gradient(#000000b7, #0000007c);
-    
+   
     border-radius: inherit;
     border: 2px solid var(--secondary);
     padding: 20px 12%;
@@ -226,13 +226,13 @@ main section {
 }
 
 .fly4 {
-    bottom: 20%;
+    bottom: 18%;
     right: 7%;
     animation: icon-anim2  3s 0.5s infinite;
 }
 
 .fly5 {
-    top: 27%;
+    top: 20%;
     right: 10%;
     animation: icon-anim1 3.5s 0.7s infinite;
 }
@@ -244,7 +244,7 @@ main section {
 }
 
 .fly7 {
-    bottom: 7%;
+    bottom: 18%;
     left: 6%;
     animation: icon-anim1 2.5s 0.4s infinite;
 }
@@ -419,11 +419,13 @@ footer {
     padding: 15px;
     max-width: 1000px;
     margin: 0 auto;
+    background-color: rgba(215, 224, 215, 0.249);
 }
 
 .orar-details summary {
     font-weight: bold;
     cursor: pointer;
+    
 }
 
 .orar-details img {
